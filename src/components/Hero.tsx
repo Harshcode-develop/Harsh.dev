@@ -102,7 +102,7 @@ const Hero = () => {
             {/* Download CV Button */}
             <div className="mt-6">
               <a
-                href="resume.pdf"
+                href="https://drive.google.com/file/d/1sC9ZScsyijNx5ROkhegTRwBhUhAgy3qA/view?usp=drive_link"
                 download
                 className="inline-flex items-center gap-3 px-3 py-1 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-[13px] transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
               >
