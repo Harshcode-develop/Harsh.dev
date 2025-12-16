@@ -64,7 +64,7 @@ const projects: Project[] = [
       <SiTailwindcss key="tailwind" />,
       <SiGooglegemini key="googlegemini" />,
     ],
-    // liveLink: "#",
+    liveLink: "https://harshcode-develop.github.io/AI-Coffee-Concierge/",
     codeLink:
       "https://github.com/Harshcode-develop/AI-Coffee-Concierge-Website.git",
   },
