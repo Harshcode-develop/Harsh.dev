@@ -32,9 +32,11 @@ const Hero = () => {
         <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-2 md:gap-0">
           {/* Left Side: Text Content */}
           <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-3xl md:text-6xl lg:text-4xl font-extrabold text-gray-800 dark:text-white leading-tight mb-4 transition-colors duration-300">
-              Data-driven <br className="block md:hidden" />
-              Frontend Developer{" "}
+            <h1 className="text-3xl md:text-6xl lg:text-4xl font-extrabold leading-tight mb-4 transition-colors duration-300">
+              <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent animate-gradient-flow">
+                Data-driven <br className="block md:hidden" />
+                Frontend Developer
+              </span>{" "}
               <span className="hidden md:inline-block">👋</span>
             </h1>
             <p className="text-sm md:text-[0.97rem] text-gray-600 dark:text-gray-300 mb-6 max-w-lg transition-colors duration-300 mx-auto md:mx-0">
