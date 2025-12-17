@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-12 md:py-24 bg-white dark:bg-gray-900 w-full transition-colors duration-300"
+      className="py-8 md:py-24 bg-white dark:bg-gray-900 w-full transition-colors duration-300"
     >
-      <div className="container mx-auto max-w-4xl px-8 md:px-9 pt-6 pb-6 md:pt-24 md:pb-20">
+      <div className="container mx-auto max-w-4xl px-8 md:px-9 pt-0 pb-6 md:pt-24 md:pb-20">
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-18">
           {/* Left Side: About Image Container with Rotating Text */}
           <div className="w-full md:w-1/2 relative flex justify-center md:justify-start">
@@ -22,7 +22,7 @@ export default function About() {
               <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-bottom-12 md:-right-12 w-32 h-30 md:w-48 md:h-46 bg-white dark:bg-gray-900 rounded-full p-1 z-10 block transition-colors duration-300">
                 {/* Static Center Logo */}
                 <div className="absolute inset-0 flex items-center justify-center z-20">
-                  <div className="text-4xl pb-1">👨🏻‍💻</div>
+                  <div className="text-2xl md:text-4xl pb-1">👨🏻‍💻</div>
                 </div>
 
                 {/* Spinning Text */}
@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           {/* Right Side: Text Content */}
-          <div className="w-full md:w-1/2 text-left mt-10 md:mt-0 md:text-left">
+          <div className="w-full md:w-1/2 text-center mt-10 md:mt-0 md:text-left">
             <h2 className="text-sm md:text-base font-bold text-blue-600 dark:text-blue-400 mb-2 transition-colors duration-300">
               ABOUT ME
             </h2>
