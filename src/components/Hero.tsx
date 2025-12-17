@@ -26,10 +26,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="py-12 md:py-24 pb-20 bg-white dark:bg-gray-900 w-full relative transition-colors duration-300"
+      className="py-12 md:pt-32 md:pb-24 pb-20 bg-white dark:bg-gray-900 w-full relative transition-colors duration-300"
     >
       <div className="container mx-auto max-w-4xl px-8 md:px-9">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-2 md:gap-0">
+        <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-2 md:gap-0">
           {/* Left Side: Text Content */}
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-3xl md:text-6xl lg:text-4xl font-extrabold text-gray-800 dark:text-white leading-tight mb-4 transition-colors duration-300">
@@ -195,7 +195,7 @@ const Hero = () => {
           </div>
 
           {/* Right Side: Profile Image Container */}
-          <div className="md:w-1/3 flex justify-center md:justify-end pr-0 md:pr-4 pb-0">
+          <div className="md:w-1/3 flex justify-center md:justify-end pr-0 md:pr-4 pb-0 pt-0 md:-mt-6">
             <div className="relative w-[18rem] h-[18rem] md:w-[21rem] md:h-[20rem] flex items-center justify-center">
               {/* Rotating Glow & Outline */}
               <div className="absolute w-[15rem] h-[15rem] md:w-[17.5rem] md:h-[17.5rem] rounded-full bg-[conic-gradient(transparent_0%,transparent_30%,#808080_100%)] dark:bg-[conic-gradient(transparent_0%,transparent_30%,#a0a0a0_100%)] animate-[spin_4s_linear_infinite] blur-md opacity-60"></div>

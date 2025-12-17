@@ -19,7 +19,7 @@ export default function About() {
               />
 
               {/* Rotating text container group */}
-              <div className="absolute -bottom-12 -right-12 w-48 h-46 bg-white dark:bg-gray-900 rounded-full p-1 z-10 hidden md:block transition-colors duration-300">
+              <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-bottom-12 md:-right-12 w-48 h-46 bg-white dark:bg-gray-900 rounded-full p-1 z-10 block transition-colors duration-300">
                 {/* Static Center Logo */}
                 <div className="absolute inset-0 flex items-center justify-center z-20">
                   <div className="text-4xl pb-1">👨🏻‍💻</div>
