@@ -19,7 +19,7 @@ export default function About() {
               />
 
               {/* Rotating text container group */}
-              <div className="absolute -bottom-12 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-bottom-12 md:-right-12 w-48 h-46 bg-white dark:bg-gray-900 rounded-full p-1 z-10 block transition-colors duration-300">
+              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-bottom-12 md:-right-12 w-32 h-30 md:w-48 md:h-46 bg-white dark:bg-gray-900 rounded-full p-1 z-10 block transition-colors duration-300">
                 {/* Static Center Logo */}
                 <div className="absolute inset-0 flex items-center justify-center z-20">
                   <div className="text-4xl pb-1">👨🏻‍💻</div>
@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           {/* Right Side: Text Content */}
-          <div className="w-full md:w-1/2 text-center md:text-left">
+          <div className="w-full md:w-1/2 text-left mt-10 md:mt-0 md:text-left">
             <h2 className="text-sm md:text-base font-bold text-blue-600 dark:text-blue-400 mb-2 transition-colors duration-300">
               ABOUT ME
             </h2>
