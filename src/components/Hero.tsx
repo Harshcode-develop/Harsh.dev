@@ -106,14 +106,14 @@ const Hero = () => {
                 href="https://drive.google.com/file/d/1sC9ZScsyijNx5ROkhegTRwBhUhAgy3qA/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-3 py-1 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-[13px] transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
+                className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-sm transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
               >
                 Download CV
               </a>
             </div>
 
             {/* Tech Stack */}
-            <div className="mt-12 md:mt-24 transition-colors duration-300">
+            <div className="mt-20 md:mt-24 transition-colors duration-300">
               <div className="flex flex-col md:flex-row items-center gap-3">
                 <div className="flex items-center gap-3 mb-2 md:mb-0">
                   <p className="text-sm font-semibold text-gray-600 dark:text-gray-300 whitespace-nowrap transition-colors duration-300">
