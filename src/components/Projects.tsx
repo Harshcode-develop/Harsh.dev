@@ -20,7 +20,7 @@ import {
   SiDatabricks,
   SiTensorflow,
   SiDocker,
-  SiApacheairflow
+  SiApacheairflow,
 } from "react-icons/si";
 import { IoClose } from "react-icons/io5";
 import { FiExternalLink } from "react-icons/fi";
@@ -94,7 +94,8 @@ const projects: Project[] = [
       <SiTensorflow key="tensorflow" />,
     ],
     //liveLink: "#",
-    codeLink: "https://github.com/Harshcode-develop/Toxic-Comment-Classifier.git",
+    codeLink:
+      "https://github.com/Harshcode-develop/Toxic-Comment-Classifier.git",
   },
 
   {
@@ -110,7 +111,8 @@ const projects: Project[] = [
       <SiApacheairflow key="apacheairflow" />,
     ],
     // liveLink: "#",
-    codeLink: "https://github.com/Harshcode-develop/Football-Stadiums-Data-Analytics.git",
+    codeLink:
+      "https://github.com/Harshcode-develop/Football-Stadiums-Data-Analytics.git",
   },
 ];
 
@@ -221,7 +223,7 @@ export default function Projects() {
           </h3>
         </div>
 
-        <div className="space-y-24">
+        <div className="space-y-32">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}

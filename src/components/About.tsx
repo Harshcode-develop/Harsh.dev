@@ -10,7 +10,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-18">
           {/* Left Side: About Image Container with Rotating Text */}
           <div className="w-full md:w-1/2 relative flex justify-center md:justify-start">
-            <div className="w-full max-w-[380px] h-[310px] bg-gray-300 dark:bg-gray-800 rounded-lg relative transition-colors duration-300">
+            <div className="w-full max-w-[380px] h-[220px] md:h-[280px] bg-gray-300 dark:bg-gray-800 rounded-lg relative transition-colors duration-300">
               {/* Replace with your actual image file name */}
               <img
                 src={aboutme}
@@ -33,9 +33,9 @@ export default function About() {
                       d="M 20,50 a 30,30 0 1,1 60,0 a 30,30 0 1,1 -60,0"
                       fill="none"
                     />
-                    <text className="text-[8.5px] uppercase font-bold tracking-widest fill-gray-800 dark:fill-white transition-colors duration-300">
+                    <text className="text-[8.5px] uppercase font-bold tracking-wide fill-gray-800 dark:fill-white transition-colors duration-300">
                       <textPath href="#textPath" startOffset="0%">
-                        front-end • developer •
+                        Data-driven • Front-end • Developer •
                       </textPath>
                     </text>
                   </svg>

@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full py-6 bg-white dark:bg-gray-900 shadow-sm md:shadow-none dark:shadow-gray-800 dark:md:shadow-none transition-colors duration-300 relative z-50">
-      <div className="container mx-auto flex justify-between items-center px-6">
+      <div className="container mx-auto flex justify-between items-center px-8">
         <a
           href="/"
           className="text-base font-bold text-gray-800 dark:text-white pl-4 transition-colors duration-300"
@@ -97,7 +97,26 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-white dark:bg-gray-900 shadow-lg border-t dark:border-gray-800 flex flex-col items-center py-6 space-y-6 transition-all duration-300">
+        <div
+          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
+          onClick={() => setIsMenuOpen(false)}
+        ></div>
+      )}
+
+      {/* Side Drawer */}
+      <div
+        className={`fixed top-0 right-0 h-full w-[60%] bg-white dark:bg-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex flex-col items-center justify-center h-full space-y-8">
+          <button
+            className="absolute top-6 right-6 text-gray-800 dark:text-white focus:outline-none"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <FaTimes size={28} />
+          </button>
+
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -109,7 +128,7 @@ export default function Navbar() {
             </a>
           ))}
         </div>
-      )}
+      </div>
     </nav>
   );
 }
