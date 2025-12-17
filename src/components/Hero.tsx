@@ -29,7 +29,7 @@ const Hero = () => {
       className="py-12 md:py-24 pb-20 bg-white dark:bg-gray-900 w-full relative transition-colors duration-300"
     >
       <div className="container mx-auto max-w-4xl px-8 md:px-9">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-5 md:gap-0">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-2 md:gap-0">
           {/* Left Side: Text Content */}
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-3xl md:text-6xl lg:text-4xl font-extrabold text-gray-800 dark:text-white leading-tight mb-4 transition-colors duration-300">
@@ -113,7 +113,7 @@ const Hero = () => {
             </div>
 
             {/* Tech Stack */}
-            <div className="mt-6 md:mt-24 transition-colors duration-300">
+            <div className="mt-12 md:mt-24 transition-colors duration-300">
               <div className="flex flex-col md:flex-row items-center gap-3">
                 <div className="flex items-center gap-3 mb-2 md:mb-0">
                   <p className="text-sm font-semibold text-gray-600 dark:text-gray-300 whitespace-nowrap transition-colors duration-300">

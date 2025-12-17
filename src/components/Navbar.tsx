@@ -105,11 +105,11 @@ export default function Navbar() {
 
       {/* Side Drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-[60%] bg-white dark:bg-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-[45%] bg-white dark:bg-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex flex-col items-center justify-center h-full space-y-8">
+        <div className="flex flex-col items-center justify-start pt-28 h-full space-y-6">
           <button
             className="absolute top-6 right-6 text-gray-800 dark:text-white focus:outline-none"
             onClick={() => setIsMenuOpen(false)}
