@@ -40,7 +40,7 @@ const Hero = () => {
               <span className="hidden md:inline-block">👋</span>
             </h1>
             <p className="text-sm md:text-[0.97rem] text-gray-600 dark:text-gray-300 mb-6 max-w-lg transition-colors duration-300 mx-auto md:mx-0">
-              Hi, I'm Harsh. A passionate data-driven developer based in [Pune,
+              Hi, I'm Harsh. A passionate and versatile data-driven developer based in [Pune,
               India]. 📍
             </p>
 
