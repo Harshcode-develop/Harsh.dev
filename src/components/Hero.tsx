@@ -19,6 +19,8 @@ import {
   SiMongodb,
   SiLeetcode,
   SiHackerrank,
+  SiSpring,
+  SiFastapi,
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -35,13 +37,13 @@ const Hero = () => {
             <h1 className="text-3xl md:text-6xl lg:text-4xl font-extrabold leading-tight mb-4 transition-colors duration-300">
               <span className="bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent animate-gradient-flow">
                 Data-driven <br className="block md:hidden" />
-                Frontend Developer
+                Software Developer
               </span>{" "}
               <span className="hidden md:inline-block">👋</span>
             </h1>
             <p className="text-sm md:text-[0.97rem] text-gray-600 dark:text-gray-300 mb-6 max-w-lg transition-colors duration-300 mx-auto md:mx-0">
-              Hi, I'm Harsh. A passionate and versatile data-driven developer based in [Pune,
-              India]. 📍
+              Hi, I'm Harsh. A passionate and versatile data-driven developer
+              based in [Pune, India]. 📍
             </p>
 
             <div className="flex justify-center md:justify-start space-x-4 mb-6">
@@ -105,7 +107,7 @@ const Hero = () => {
             {/* Download CV Button */}
             <div className="mt-6">
               <a
-                href="https://drive.google.com/file/d/1sC9ZScsyijNx5ROkhegTRwBhUhAgy3qA/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1xeGze_0BXu2sNZ_bq_fSTHtNaybn9uu0/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-sm transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
@@ -125,7 +127,7 @@ const Hero = () => {
                     |
                   </span>
                 </div>
-                <div className="flex flex-wrap justify-center md:flex-nowrap md:overflow-visible gap-4 md:gap-7 w-full md:w-auto px-2 md:px-0">
+                <div className="flex flex-wrap justify-center md:flex-nowrap md:overflow-visible gap-4 md:gap-6 w-full md:w-auto px-2 md:px-0">
                   <SiPython
                     size={22}
                     className="text-blue-400 shrink-0"
@@ -144,7 +146,7 @@ const Hero = () => {
                   <SiMongodb
                     size={22}
                     className="text-green-500 shrink-0"
-                    title="MySQL"
+                    title="MongoDB"
                   />
                   <SiHtml5
                     size={22}
@@ -176,10 +178,20 @@ const Hero = () => {
                     className="text-sky-500 shrink-0"
                     title="React"
                   />
+                  <SiSpring
+                    size={22}
+                    className="text-green-500 shrink-0"
+                    title="Spring"
+                  />
                   <SiExpress
                     size={22}
                     className="text-black dark:text-white transition-colors duration-300 shrink-0"
                     title="Express"
+                  />
+                  <SiFastapi
+                    size={22}
+                    className="text-cyan-500 shrink-0"
+                    title="FastAPI"
                   />
                   <FaGitAlt
                     size={22}

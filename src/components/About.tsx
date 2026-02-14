@@ -33,9 +33,9 @@ export default function About() {
                       d="M 20,50 a 30,30 0 1,1 60,0 a 30,30 0 1,1 -60,0"
                       fill="none"
                     />
-                    <text className="text-[8.5px] uppercase font-bold tracking-wide fill-gray-800 dark:fill-white transition-colors duration-300">
+                    <text className="text-[8.8px] uppercase font-bold tracking-wide fill-gray-800 dark:fill-white transition-colors duration-300">
                       <textPath href="#textPath" startOffset="0%">
-                        Data-driven • Front-end • Developer •
+                        Data-driven • Software • Developer •
                       </textPath>
                     </text>
                   </svg>
