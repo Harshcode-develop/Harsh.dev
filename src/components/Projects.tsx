@@ -1,10 +1,12 @@
 "use client";
 import React, { useState } from "react";
+
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 import { FaGithub } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
@@ -21,6 +23,8 @@ import {
   SiTensorflow,
   SiDocker,
   SiApacheairflow,
+  SiSupabase,
+  SiSpring,
 } from "react-icons/si";
 import { IoClose } from "react-icons/io5";
 import { FiExternalLink } from "react-icons/fi";
@@ -38,26 +42,43 @@ interface Project {
 // Project Data
 const projects: Project[] = [
   {
-    title: "AI Powered Code Snippets Manager",
+    title: "AI-Powered Code Snippets Manager",
     description:
       "An intelligent code snippet manager that uses AI to help you organize, find, and use your code snippets more effectively.",
     image: project1, // Placeholder image path
     tech: [
       <SiExpress key="express" />,
       <SiReact key="react" />,
-      <SiJavascript key="javascript" />,
+      <SiTypescript key="typescript" />,
       <SiTailwindcss key="tailwind" />,
-      <SiMysql key="mysql" />,
+      <SiSupabase key="supabase" />,
       <SiGooglegemini key="googlegemini" />,
     ],
     codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
+    liveLink: "https://code-snippets-manager-sxc.vercel.app",
+  },
+  {
+    title: "AI-Powered Movie Concierge",
+    description:
+      "An intelligent movie booking platform that uses AI to help you discover the latest films and reserve seats through intuitive, natural conversational experiences.",
+    image: project2, // Placeholder image path
+    tech: [
+      <SiSpring key="spring" />,
+      <SiReact key="react" />,
+      <SiTypescript key="typescript" />,
+      <SiTailwindcss key="tailwind" />,
+      <SiSupabase key="supabase" />,
+      <SiGooglegemini key="googlegemini" />,
+    ],
+    codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
+    liveLink: "https://code-snippets-manager-sxc.vercel.app",
   },
 
   {
     title: "AI Coffee Concierge",
     description:
       "An AI-powered coffee concierge website that helps users find and order the perfect brew based on their preferences.",
-    image: project2, // Placeholder image path
+    image: project3, // Placeholder image path
     tech: [
       <SiReact key="react" />,
       <SiTypescript key="typescript" />,
@@ -73,7 +94,7 @@ const projects: Project[] = [
     title: "Spotify Music Database ETL",
     description:
       "An ETL pipeline that extracts music data from Spotify, transforms it using Azure Databricks, and loads it into Azure SQL Database and visualizes it using Power BI.",
-    image: project3, // Placeholder image path
+    image: project4, // Placeholder image path
     tech: [
       <SiPython key="python" />,
       <VscAzure key="azure" />,
@@ -87,7 +108,7 @@ const projects: Project[] = [
     title: "Toxic Comment Classifier",
     description:
       "A machine learning model that uses natural language processing to classify comments as toxic or non-toxic.",
-    image: project4, // Placeholder image path
+    image: project5, // Placeholder image path
     tech: [
       <SiPython key="python" />,
       <SiDatabricks key="databricks" />,
@@ -102,7 +123,7 @@ const projects: Project[] = [
     title: "FootBall Stadiums ETL",
     description:
       "An ETL pipeline that extracts foot ball stadiums data from web, transforms it using Azure Databricks, and loads it into Azure SQL Database and visualizes it using Power BI.",
-    image: project5, // Placeholder image path
+    image: project6, // Placeholder image path
     tech: [
       <SiPython key="python" />,
       <VscAzure key="azure" />,

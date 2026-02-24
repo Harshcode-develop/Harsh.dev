@@ -21,6 +21,7 @@ import {
   SiHackerrank,
   SiSpring,
   SiFastapi,
+  SiSupabase
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -129,77 +130,78 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-wrap justify-center md:flex-nowrap md:overflow-visible gap-4 md:gap-6 w-full md:w-auto px-2 md:px-0">
                   <SiPython
-                    size={22}
+                    size={20}
                     className="text-blue-400 shrink-0"
                     title="Python"
                   />
                   <FaJava
-                    size={22}
+                    size={20}
                     className="text-orange-500 shrink-0"
                     title="Java"
                   />
+                  <SiSupabase
+                    size={20}
+                    className="text-green-500 shrink-0"
+                    title="Supabase"
+                  />
                   <SiMysql
-                    size={22}
+                    size={20}
                     className="text-blue-500 shrink-0"
                     title="MySQL"
                   />
                   <SiMongodb
-                    size={22}
+                    size={20}
                     className="text-green-500 shrink-0"
                     title="MongoDB"
                   />
                   <SiHtml5
-                    size={22}
+                    size={20}
                     className="text-orange-600 shrink-0"
                     title="HTML5"
                   />
-                  <SiCss3
-                    size={22}
-                    className="text-blue-600 shrink-0"
-                    title="CSS3"
+                  <SiTailwindcss
+                    size={20}
+                    className="text-cyan-500 shrink-0"
+                    title="Tailwind CSS"
                   />
                   <SiJavascript
-                    size={22}
+                    size={20}
                     className="text-yellow-400 bg-black rounded shrink-0"
                     title="JavaScript"
                   />
                   <SiTypescript
-                    size={22}
+                    size={20}
                     className="text-blue-500 bg-white rounded shrink-0"
                     title="TypeScript"
                   />
-                  <SiTailwindcss
-                    size={22}
-                    className="text-cyan-500 shrink-0"
-                    title="Tailwind CSS"
-                  />
+                  
                   <SiReact
-                    size={22}
+                    size={20}
                     className="text-sky-500 shrink-0"
                     title="React"
                   />
                   <SiSpring
-                    size={22}
+                    size={20}
                     className="text-green-500 shrink-0"
                     title="Spring"
                   />
                   <SiExpress
-                    size={22}
+                    size={20}
                     className="text-black dark:text-white transition-colors duration-300 shrink-0"
                     title="Express"
                   />
                   <SiFastapi
-                    size={22}
+                    size={20}
                     className="text-cyan-500 shrink-0"
                     title="FastAPI"
                   />
                   <FaGitAlt
-                    size={22}
+                    size={20}
                     className="text-orange-500 shrink-0"
                     title="Git"
                   />
                   <VscAzure
-                    size={22}
+                    size={20}
                     className="text-blue-500 shrink-0"
                     title="Azure"
                   />
