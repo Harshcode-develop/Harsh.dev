@@ -69,7 +69,7 @@ const projects: Project[] = [
       <SiGooglegemini key="googlegemini" />,
     ],
     codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
-    liveLink: "https://code-snippets-manager-sxc.vercel.app",
+    liveLink: "https://movie-booking-system-cinemax.vercel.app",
   },
 
   {

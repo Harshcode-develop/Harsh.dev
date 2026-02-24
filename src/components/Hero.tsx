@@ -107,7 +107,7 @@ const Hero = () => {
             {/* Download CV Button */}
             <div className="mt-6">
               <a
-                href="https://drive.google.com/file/d/1xeGze_0BXu2sNZ_bq_fSTHtNaybn9uu0/view?usp=sharing"
+                href="https://drive.google.com/file/d/1CMRPX-lPf4KK3fcoZ9EGygsloBisryuT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-sm transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
@@ -173,7 +173,7 @@ const Hero = () => {
                     className="text-blue-500 bg-white rounded shrink-0"
                     title="TypeScript"
                   />
-                  
+
                   <SiReact
                     size={20}
                     className="text-sky-500 shrink-0"
