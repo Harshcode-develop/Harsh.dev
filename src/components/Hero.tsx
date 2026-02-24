@@ -12,7 +12,6 @@ import {
   SiJavascript,
   SiTypescript,
   SiHtml5,
-  SiCss3,
   SiPython,
   SiMysql,
   SiExpress,
