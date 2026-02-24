@@ -13,9 +13,7 @@ import { VscAzure } from "react-icons/vsc";
 import {
   SiReact,
   SiTailwindcss,
-  SiJavascript,
   SiExpress,
-  SiMysql,
   SiGooglegemini,
   SiTypescript,
   SiPython,
