@@ -208,7 +208,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm font-medium text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
           >
-            Live Demo <FiExternalLink />
+            Website <FiExternalLink />
           </a>
         )}
       </div>
