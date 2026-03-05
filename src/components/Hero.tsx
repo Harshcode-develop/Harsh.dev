@@ -107,7 +107,7 @@ const Hero = () => {
             {/* Download CV Button */}
             <div className="mt-6">
               <a
-                href="https://drive.google.com/file/d/1CMRPX-lPf4KK3fcoZ9EGygsloBisryuT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1iVTx9Xepqyq90MS9JvsdrnMKfZ4lrf-l/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-black dark:border-white text-black dark:text-white font-semibold text-sm transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black shadow-sm"
