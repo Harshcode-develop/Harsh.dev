@@ -20,7 +20,10 @@ import {
   SiHackerrank,
   SiSpring,
   SiFastapi,
-  SiSupabase
+  SiSupabase,
+  SiTensorflow,
+  SiLangchain,
+
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -127,7 +130,7 @@ const Hero = () => {
                     |
                   </span>
                 </div>
-                <div className="flex flex-wrap justify-center md:flex-nowrap md:overflow-visible gap-4 md:gap-6 w-full md:w-auto px-2 md:px-0">
+                <div className="flex flex-wrap justify-center md:flex-nowrap md:overflow-visible gap-2 md:gap-5 w-full md:w-auto px-2 md:px-0">
                   <SiPython
                     size={20}
                     className="text-blue-400 shrink-0"
@@ -140,7 +143,7 @@ const Hero = () => {
                   />
                   <SiSupabase
                     size={20}
-                    className="text-green-500 shrink-0"
+                    className="text-green-600 shrink-0"
                     title="Supabase"
                   />
                   <SiMysql
@@ -153,6 +156,17 @@ const Hero = () => {
                     className="text-green-500 shrink-0"
                     title="MongoDB"
                   />
+                  <SiTensorflow
+                    size={20}
+                    className="text-orange-400 shrink-0"
+                    title="Tensorflow"
+                  />
+                  <SiLangchain
+                    size={20}
+                    className="text-green-900 shrink-0"
+                    title="Langchain"
+                  />
+
                   <SiHtml5
                     size={20}
                     className="text-orange-600 shrink-0"

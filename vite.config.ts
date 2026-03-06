@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Harsh.dev/",
+  base: "/Harsh.dev",
   plugins: [react(), tailwindcss()],
 });
