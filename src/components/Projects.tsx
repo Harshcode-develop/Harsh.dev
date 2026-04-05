@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
+import project from "../assets/project.png";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
@@ -23,6 +23,7 @@ import {
   SiApacheairflow,
   SiSupabase,
   SiSpring,
+  SiFastapi
 } from "react-icons/si";
 import { IoClose } from "react-icons/io5";
 import { FiExternalLink } from "react-icons/fi";
@@ -39,6 +40,24 @@ interface Project {
 
 // Project Data
 const projects: Project[] = [
+
+    {
+    title: "AI-EchoChamber",
+    description:
+      "An AI-powered content repurposing platform that transforms long-form videos into platform-optimized social media posts.",
+    image: project, // Placeholder image path
+    tech: [
+      <SiReact key="react" />,
+      <SiTypescript key="typescript" />,
+      <SiTailwindcss key="tailwind" />,
+      <SiGooglegemini key="googlegemini" />,
+      <SiFastapi key="fastapi" />,
+      <SiSupabase key="supabase" />,
+
+    ],
+    liveLink: "https://ai-echo-chamber-green.vercel.app",
+    // codeLink:"",
+  },
   {
     title: "AI-Powered Code Snippets Manager",
     description:
@@ -52,7 +71,7 @@ const projects: Project[] = [
       <SiSupabase key="supabase" />,
       <SiGooglegemini key="googlegemini" />,
     ],
-    codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
+    // codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
     liveLink: "https://code-snippets-manager-sxc.vercel.app",
   },
   {
@@ -68,25 +87,10 @@ const projects: Project[] = [
       <SiSupabase key="supabase" />,
       <SiGooglegemini key="googlegemini" />,
     ],
-    codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
+    // codeLink: "https://github.com/Harshcode-develop/Code-Snippets-Manager.git",
     liveLink: "https://movie-booking-system-cinemax.vercel.app",
   },
 
-  {
-    title: "AI Coffee Concierge",
-    description:
-      "An AI-powered coffee concierge website that helps users find and order the perfect brew based on their preferences.",
-    image: project3, // Placeholder image path
-    tech: [
-      <SiReact key="react" />,
-      <SiTypescript key="typescript" />,
-      <SiTailwindcss key="tailwind" />,
-      <SiGooglegemini key="googlegemini" />,
-    ],
-    liveLink: "https://harshcode-develop.github.io/AI-Coffee-Concierge/",
-    codeLink:
-      "https://github.com/Harshcode-develop/AI-Coffee-Concierge-Website.git",
-  },
 
   {
     title: "Spotify Music Database ETL",
@@ -208,7 +212,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm font-medium text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
           >
-            Website <FiExternalLink />
+            Live Website <FiExternalLink />
           </a>
         )}
       </div>
